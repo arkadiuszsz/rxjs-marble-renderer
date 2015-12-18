@@ -1,0 +1,24 @@
+{
+  "name": "rxjs-marble-renderer",
+  "description": "RxJs marble renderer for develop",
+  "version": "0.0.2",
+  "author": {
+    "name": "Lee Seoyeon",
+    "email": "i@ssen.name",
+    "url": "https://iamssen.github.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iamssen/rxjs-marble-renderer.git"
+  },
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p src"
+  },
+  "peerDependencies": {
+    "d3": "*",
+    "d3tip": "*"
+  }
+}
