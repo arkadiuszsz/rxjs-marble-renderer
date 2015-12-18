@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="viewport" id="viewport" content="width=device-width,initial-scale=1"/>
+		<title>--rxjs-marble-renderer</title>
+		<script src="https://npmcdn.com/angular2/bundles/angular2-polyfills.js"></script>
+		<script src="https://npmcdn.com/systemjs/dist/system.src.js"></script>
+		<script src="config.js"></script>
+		<script src="dist/vendor.js"></script>
+		<script src="dist/app.js"></script>
+		<link rel="stylesheet" href="dist/vendor.css"/>
+		<link rel="stylesheet" href="dist/app.css"/>
+	</head>
+	<body>
+		<app-main></app-main>
+		<script>
+			System.import('app');
+		</script>
+	</body>
+</html>

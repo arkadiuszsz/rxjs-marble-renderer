@@ -1,0 +1,43 @@
+{
+  "name": "--rxjs-marble-renderer",
+  "description": "...",
+  "version": "0.0.1",
+  "author": {
+    "name": "Lee Seoyeon",
+    "email": "i@ssen.name",
+    "url": "https://iamssen.github.io"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/iamssen/--rxjs-marble-renderer.git"
+  },
+  "devDependencies": {
+    "angular2": "latest",
+    "d3tip": "latest",
+    "rxjs": "latest",
+    "rxjs-marble-renderer": "latest"
+  },
+  "jspm": {
+    "dependencies": {
+      "angular2": "npm:angular2@^2.0.0-beta.0",
+      "css": "github:systemjs/plugin-css@^0.1.20",
+      "d3": "github:mbostock/d3@^3.5.12",
+      "d3tip": "npm:d3tip@^0.3.2",
+      "es6-promise": "npm:es6-promise@^3.0.2",
+      "es6-shim": "github:es-shims/es6-shim@^0.34.0",
+      "jquery": "github:components/jquery@^2.1.4",
+      "rxjs": "npm:rxjs@^5.0.0-beta.0",
+      "rxjs-marble-renderer": "npm:rxjs-marble-renderer@^0.0.2"
+    },
+    "devDependencies": {
+      "clean-css": "npm:clean-css@^3.4.8",
+      "typescript": "npm:typescript@^1.7.5"
+    }
+  },
+  "scripts": {
+    "build": "jspm bundle app - dist/vendor.js dist/app.js",
+    "serve": "live-server --open=. --port=3004",
+    "bundle": "jspm bundle angular2/core + angular2/common + angular2/platform/browser + angular2/router + angular2/http + rxjs + jquery + d3 + d3tip + d3tip/dist/d3tip.css! dist/vendor.js"
+  }
+}
