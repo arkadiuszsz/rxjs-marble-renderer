@@ -14,7 +14,7 @@ import {Sample} from "../sample/sample";
 	]
 })
 @View({
-	templateUrl: '/app/main/main.html',
+	templateUrl: 'app/main/main.html',
 	directives: [ROUTER_DIRECTIVES]
 })
 @RouteConfig([

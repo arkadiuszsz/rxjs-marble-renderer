@@ -445,7 +445,7 @@ System.register("app/main/main.ts", ["npm:angular2@2.0.0-beta.0/core", "npm:angu
                         ]
                     }),
                     core_1.View({
-                        templateUrl: '/app/main/main.html',
+                        templateUrl: 'app/main/main.html',
                         directives: [router_1.ROUTER_DIRECTIVES]
                     }),
                     router_1.RouteConfig([
