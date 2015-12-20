@@ -1,7 +1,7 @@
 {
   "name": "rxjs-marble-renderer",
   "description": "RxJs marble renderer for develop",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "author": {
     "name": "Lee Seoyeon",
     "email": "i@ssen.name",
@@ -15,10 +15,17 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc -p src"
+    "build": "gulp build"
   },
   "peerDependencies": {
+    "angular2": "*",
     "d3": "*",
     "d3tip": "*"
+  },
+  "devDependencies": {
+    "gulp": "*",
+    "gulp-clean": "*",
+    "gulp-sass": "*",
+    "gulp-tsc": "*"
   }
 }

@@ -89,7 +89,7 @@ export function render(svgElement:SVGSVGElement, marble:Stream[]) {
 	points
 		.append('text')
 		.classed('point-label', true)
-		.text((p:Point) => p.value)
+		.text((p:Point) => (p.value.toString().length > 4) ? '...' : p.value.toString())
 
 	points
 		.append('circle')

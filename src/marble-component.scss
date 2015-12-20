@@ -1,0 +1,75 @@
+// <svg class="marble">
+svg.marble {
+	background-color: #eeeeee;
+
+	// <path class="sequence-line">
+	path.sequence-line {
+		fill: none;
+		stroke: #0000ff;
+		stroke-width: 5px;
+		stroke-opacity: 0.08;
+		stroke-linejoin: round;
+	}
+
+	// <g class="stream">
+	g.stream {
+		line.stream-line {
+			stroke: #000000;
+			stroke-width: 1px;
+			stroke-dasharray: 3px 1px;
+		}
+
+		text.stream-description {
+			baseline-shift: 10%;
+			fill: #cccccc;
+		}
+
+		text.stream-combined-info {
+			baseline-shift: -110%;
+			font-size: 12px;
+			fill: #cccccc;
+		}
+
+		// <g class="point">
+		g.point {
+			circle.point-focus {
+				pointer-events: none;
+				fill: none;
+				stroke: #000000;
+				transition: transform 0.4s, stroke-opacity 0.7s;
+				stroke-opacity: 0;
+				transform: scale(0);
+			}
+
+			circle.point-hit:hover + circle.point-focus {
+				stroke-opacity: 1;
+				transform: scale(1);
+			}
+
+			circle.point-circle {
+				fill: #000000;
+			}
+
+			text.point-label {
+				text-anchor: middle;
+				baseline-shift: -120%;
+				font-size: 11px;
+			}
+
+			circle.point-hit {
+				cursor: pointer;
+				fill-opacity: 0;
+			}
+		}
+	}
+
+	// <g class="stream stream-combined">
+	g.stream-combined {
+		line.stream-line {
+			stroke: #000000;
+			stroke-width: 2px;
+			stroke-dasharray: none;
+		}
+	}
+}
+
