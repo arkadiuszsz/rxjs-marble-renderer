@@ -28,7 +28,7 @@
       "es6-shim": "github:es-shims/es6-shim@^0.34.0",
       "jquery": "github:components/jquery@^2.1.4",
       "rxjs": "npm:rxjs@^5.0.0-beta.0",
-      "rxjs-marble-renderer": "npm:rxjs-marble-renderer@^0.0.2"
+      "rxjs-marble-renderer": "npm:rxjs-marble-renderer@^0.0.3"
     },
     "devDependencies": {
       "clean-css": "npm:clean-css@^3.4.8",
