@@ -12,8 +12,8 @@ But, this module is not completely. (just alpha version)
 
 ## Sample Project
 
-- [Website](http://iamssen.github.io/--rxjs-marble-renderer/)
-- [Source code](https://github.com/iamssen/--rxjs-marble-renderer)
+- [Website](http://iamssen.github.io/rxjs-marble-renderer/)
+- [Source code](https://github.com/iamssen/rxjs-marble-renderer/tree/gh-pages)
 
 ## Install with Jspm
 ```sh
